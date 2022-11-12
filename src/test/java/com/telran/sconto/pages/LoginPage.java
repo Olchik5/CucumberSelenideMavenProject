@@ -33,4 +33,16 @@ public class LoginPage {
     public void clickOnLoginSubmitButton() {
         $(submitButton).click();
     }
+
+
+    public void invalidLoginInput(String email, String password) {
+        $(emailInput).setValue(email);
+        $(passwordInput).setValue(password);
+    }
+
+    private static By passwordErrorMessageLocator = By.id("loginEmail-error");
+
+    public SelenideElement passwordErrorMassage() {
+        return $(passwordErrorMessageLocator);
+    }
 }

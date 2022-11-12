@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test" parallel="tests" >
+    <test name="test" >
+        <classes>
+            <class name="com.telran.sconto.RunCucumberTest" />
+        </classes>
+    </test>
+
+</suite>

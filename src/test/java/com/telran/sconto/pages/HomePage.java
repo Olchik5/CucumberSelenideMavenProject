@@ -1,6 +1,5 @@
 package com.telran.sconto.pages;
 
-import com.codeborne.selenide.Conditional;
 import com.codeborne.selenide.SelenideElement;
 import com.telran.sconto.utils.PropertiesLoader;
 import org.openqa.selenium.By;

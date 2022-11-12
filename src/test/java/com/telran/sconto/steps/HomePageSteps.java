@@ -17,7 +17,7 @@ public class HomePageSteps implements En {
             homePage.acceptCookies();
         });
 
-        Then("Home Page diplayed",() ->{
+        Then("Home Page displayed",() ->{
             homePage.validMyAccount().shouldHave(text("Onita Onitovna"));
         });
 
